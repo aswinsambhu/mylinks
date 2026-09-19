@@ -22,3 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const counter = document.querySelector(".section-head span:last-child");
   if (counter) counter.textContent = `01 — ${String(items.length).padStart(2, "0")}`;
 });
+
+
+const premiumAlert = document.getElementById("premiumAlert");
+const enterBtn = document.getElementById("enterBtn");
+
+if (premiumAlert && enterBtn) {
+
+  enterBtn.addEventListener("click", () => {
+    premiumAlert.classList.add("hide");
+  });
+
+}
