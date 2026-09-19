@@ -1,5 +1,3 @@
-// EDIT YOUR PROJECTS IN index.html.
-// This script only adds a subtle reveal animation and updates the project count.
 
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".project");
